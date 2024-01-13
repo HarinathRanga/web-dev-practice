@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_box {
+    background-image: url("slidebar_bg.jpg");
+    height: 100vh;
+    background-size: cover;
+    /* background-color: rgb(91, 91, 91); */
+}
+
+.btn_one {
+    position: relative;
+    left: 20px;
+    top: 20px;
+    font-size: 30px;
+    color: rgb(191, 191, 191);
+    width: fit-content;
+}
+.btn_two {
+    position: relative;
+    font-size: 35px;
+    bottom: 57px;
+    left: 210px;
+    color: rgb(191, 191, 191);
+    font-weight: 400;
+    width: 30px;
+}
+.sidebar_menu {
+    height: 80%;
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.352);
+    box-shadow: 0 0 2px rgba(108, 104, 104, 0.336);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    left: -300px;
+}
+
+.logo {
+    font-size: 25px;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+
+
+.menu {
+    width: 100%;
+    height: 80%;
+    color: rgb(191, 191, 191);
+    position: relative;
+    bottom: 45px;
+}
+.menu ul {
+    width: 100%;
+    height: 100%;
+    list-style: none;
+}
+
+.menu ul li {
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.menu ul li:hover {
+    /* background-color:rgba(0, 0, 0, 0.455) ;
+     */
+     box-shadow: 0 0 4px rgba(255, 255, 255, 0.567);
+    color: rgb(252, 252, 252);
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.social_media ul {
+    position: relative;
+    bottom: 70px;
+    padding: 20px;
+}
+.social_media ul a{
+    text-decoration: none;
+    color: rgb(191, 191, 191);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.social_media ul a:hover {
+    font-size: 1.2em;
+    color: rgb(252, 252, 252);
+}
+
+#check {
+    display: none;
+}
+label:hover {
+    cursor: pointer;
+}
+
+#check:checked ~ .sidebar_menu {
+    left: 0;
+}
+#check:checked ~ .btn_one {
+    display: none;
+}
