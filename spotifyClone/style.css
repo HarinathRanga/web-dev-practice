@@ -19,7 +19,7 @@
 
 .sidebar {
     /* background-color: #121212; */
-    width: 30vw;
+    width: 25vw;
     display: flex;
     flex-direction: column;
     gap: 0.4rem;
@@ -39,23 +39,27 @@
     width: 100%;
     height: 4rem;
 }
+.logo {
+    padding-left: 1.2rem;
+}
 .logo img {
     height: 1.7rem;
 }
 
 .nav {
-    width: 95%;
+    width: 100%;
     display: flex;
     background-color: #121212;
     flex-direction: column;
     font-weight: 600;
-    padding: 1rem 0 1rem 1.2rem;
+    padding: 1rem 0 1rem 0;
     border-radius: 0.6rem;
 }
 .nav-options {
     line-height: 3rem;
-    padding-left: 0.5rem;
+    padding-left: 1.7rem;
     opacity: 0.7;
+    width: max-content;
 }
 .nav-options:hover {
     opacity: 1;
@@ -170,7 +174,7 @@
 }
 
 .signup {
-    width: 30%;
+    width: 20vw;
     display: flex;
     align-items: center;
     justify-content: space-between;

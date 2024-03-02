@@ -1,0 +1,18 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#editor {
+    height: 100%;
+    width: 60%;
+}
+.input  {
+    width: 30%;
+    height: 40%;
+    border: 2px solid black;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
